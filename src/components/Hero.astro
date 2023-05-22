@@ -20,7 +20,7 @@ const hero = siteConfig.hero;
             {hero.actions && hero.actions.length > 0 && (
                 <div class="flex flex-wrap gap-4">
                     {hero.actions.map((action) => (
-                        <Button href={action.href}>{action.text}</Button>
+                        <Button target={action.href.startsWith('http') ? "_blank" : "_self"} href={action.href}>{action.text}</Button>
                     ))}
                 </div>
             )}
