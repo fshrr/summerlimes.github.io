@@ -8,7 +8,7 @@ seo:
     alt: A person sitting at a desk in front of a computer
 ---
 
-**Greetings!** I'm Fahim Shahreer, a passionate full-stack developer with a keen interest in machine learning, big data applications, and computational biology. With a strong technical foundation and a love for solving complex problems, I bring a unique blend of creativity and expertise to the world of software development.
+My coding journey began back in 2015, tinkering with jQuery and WordPress to build websites for local businesses as a side gig. Since then, I've immersed myself in the exciting realms of web development, full-stack engineering, computational biology, and machine learning.
 
 ## Skills and Expertise
 

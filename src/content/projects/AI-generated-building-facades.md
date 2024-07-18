@@ -1,7 +1,7 @@
 ---
-title: 'LLM Performance Monitoring Dashboard'
+title: 'AI Generated Building Facades'
 description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
-publishDate: 'Jul 17 2024'
+publishDate: 'Jul 16 2024'
 isFeatured: true
 seo:
   image:

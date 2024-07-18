@@ -9,14 +9,18 @@ const hero = siteConfig.hero;
 {
     (hero?.title || hero?.image?.src || hero?.text || (hero?.actions && hero.actions.length > 0)) && (
         <section class="w-full flex flex-col gap-8 mb-16 sm:mb-24">
-            {hero.title && <h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl sm:leading-tight">{hero.title}</h1>}
+            <h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl sm:leading-tight">
+                Hi there. I am Fahim. Welcome to my corner of the web!
+            </h1>
             {hero.image?.src && (
                 <figure>
                     <img class="w-full" src={hero.image.src} loading="lazy" decoding="async" alt={hero.image.alt || ''} />
                     {hero.image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">{hero.image.caption}</figcaption>}
                 </figure>
             )}
-            {hero.text && <div class="max-w-none prose prose-dante sm:prose-lg" set:html={marked.parse(hero.text)} />}
+            <div class="max-w-none prose prose-dante sm:prose-lg">
+                I'm a passionate full-stack developer with a keen interest in machine learning, big data applications, and computational biology. With a strong technical foundation and a love for solving complex problems, I bring a unique blend of creativity and expertise to the world of software development. I have worked with a diverse set of technologies in both <b>Javascript</b> and <b>Python</b> ecosystems - including <b>ReactJS</b>, <b>NextJS</b>, <b>NodeJS</b>, <b>FastAPI</b>, <b>PostgreSQL</b>, <b>DynamoDB</b> and <b>Langchain</b>. <br><br> These days, my focus is on learning more about large-scale systems and experimenting with LLMs to build workflows and LLM-enabled applications.
+            </div>
             {hero.actions && hero.actions.length > 0 && (
                 <div class="flex flex-wrap gap-4">
                     {hero.actions.map((action) => (

@@ -1,7 +1,7 @@
 ---
-title: 'Llama3-RAG Static site generator'
+title: 'Llama3 RAG component generator'
 description: Explore the possibilities of time travel through an immersive website for a fictional travel agency, complete with dynamic destination timelines and interactive historical events.
-publishDate: 'Oct 2 2023'
+publishDate: 'Jul 18 2024'
 isFeatured: true
 seo:
   image:
@@ -11,12 +11,8 @@ seo:
 
 ![Project preview](/project-2.jpg)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
-
 **Project Overview:**
 TimeWarp Travel Agency aims to redefine the travel experience by offering an innovative and immersive online platform that explores the concept of time travel. The website combines cutting-edge technology with captivating storytelling to provide users with a unique journey through time.
-
-> Working with Ethan Donovan was a game-changer for our online presence. Their innovative solutions and attention to detail turned our vision into a reality. The website not only looks fantastic but also functions seamlessly. A true professional who exceeded our expectations!
 
 ## Objectives
 
@@ -50,7 +46,7 @@ TimeWarp Travel Agency aims to redefine the travel experience by offering an inn
 - A blog section, "Chronicle Explorer," offers in-depth articles and stories about various historical periods and their impact on the destinations featured on the platform.
 - Users can engage with the content, comment, and share their own historical insights.
 
-## Technology Stack
+## Tech Stack
 
 - **Frontend:** [Astro.js](https://astro.build/) for a dynamic and responsive user interface and [Tailwind CSS](https://tailwindcss.com/) for styling.
 - **Backend:** Node.js for handling server-side logic and API integration.
@@ -60,5 +56,3 @@ TimeWarp Travel Agency aims to redefine the travel experience by offering an inn
 ## Outcome
 
 The TimeWarp Travel Agency Website successfully brings the concept of time travel to life, providing users with a captivating and educational experience. The website not only serves as a travel planning tool but also as an interactive platform that encourages users to explore and appreciate the rich tapestry of human history.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
