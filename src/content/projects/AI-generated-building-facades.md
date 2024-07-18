@@ -1,6 +1,6 @@
 ---
 title: 'AI Generated Building Facades'
-description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
+description: Collaborated on automating 2D to 3D transformations, creating new architectural facades using neural style transfer, and developing a Django web app with AWS GPU-enabled servers.
 publishDate: 'Jul 16 2024'
 isFeatured: true
 seo:
@@ -11,57 +11,38 @@ seo:
 
 ![Project preview](/project-1.jpg)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
-
 **Project Overview:**
-EcoBuddy is a revolutionary mobile application designed to make sustainable living accessible, engaging, and rewarding. With a focus on gamification and real-world impact, EcoBuddy encourages users to adopt eco-friendly habits, reduce their carbon footprint, and contribute to a healthier planet.
+Collaborated with the University of Toronto Daniels Faculty of Architecture and LAMAS to develop automated processes for building facade transformations, generate new architectural styles using neural style transfer, and create a web application for a student workshop.
 
 ## Objectives
 
-1. Develop a user-friendly mobile app that motivates individuals to adopt sustainable practices in their daily lives.
-2. Utilize gamification elements to make sustainable living fun and interactive.
-3. Provide educational resources and personalized challenges to empower users to make informed eco-conscious decisions.
+1. Automate the transformation of 2D building facade features into 3D models using edge detection techniques.
+2. Generate novel architectural facades by combining different styles or applying art styles to architecture through neural style transfer.
+3. Develop a web application to run neural style transfers on student prompts using AWS GPU-enabled servers.
 
 ## Features
 
-1. **EcoScore and Challenges:**
+1. **2D to 3D Transformation:**
 
-- Users are assigned an EcoScore based on their sustainable activities and choices.
-- Daily and weekly challenges encourage users to adopt new habits and compete with friends or the community to earn EcoPoints.
+   - Automated edge detection to identify building facades.
+   - Classified architectural types using Scikit-learn and Scikit-image.
 
-2. **Personalized Eco-Goals:**
+2. **Neural Style Transfer:**
 
-- Users can set and track personalized eco-goals, such as reducing plastic usage, conserving water, or choosing eco-friendly transportation.
-- The app provides tips and suggestions to help users achieve their goals.
+   - Created and labeled datasets for training neural style transfer models.
+   - Used PyTorch and OpenCV to blend architectural styles and artistic influences.
 
-3. **Green Rewards Marketplace:**
+3. **Web Application Development:**
 
-- EcoPoints earned through challenges and sustainable actions can be redeemed in a virtual Green Rewards Marketplace.
-- The marketplace offers discounts on eco-friendly products, services, and even contributions to environmental causes.
+   - Developed a Django web app for student workshops.
+   - Managed load balancing and GPU instances on AWS for optimal performance.
 
-4. **Community Hub:**
+## Tech Stack
 
-- A community feature allows users to connect, share their eco-friendly achievements, and inspire others.
-- Users can join local eco-groups, organize clean-up events, and collaborate on sustainability projects.
-
-5. **EcoEducator AI Assistant:**
-
-- An AI-powered assistant, EcoEducator, provides personalized eco-tips, facts, and information based on users' preferences and habits.
-- Users can chat with EcoEducator for instant advice on sustainable living.
-
-## Technology Stack
-
-- Frontend: React Native for cross-platform mobile app development.
-- Backend: Firebase for real-time data synchronization and user authentication.
-- Database: Firestore for scalable and flexible data storage.
-- AI Integration: Dialogflow for natural language processing and conversation with EcoEducator.
+- **Frontend:** JavaScript
+- **Backend:** Django, AWS
+- **Machine Learning:** Scikit-learn, Scikit-image, PyTorch, OpenCV
 
 ## Outcome
 
-EcoBuddy has successfully created a community of environmentally conscious individuals who actively participate in sustainable living practices. The app not only educates and motivates users but also provides tangible rewards for their commitment to a greener lifestyle, fostering a positive impact on the environment.
-
-## Client Testimonial
-
-> We couldn't be happier with the results delivered by Ethan Donovan. From the initial concept discussions to the final product, their responsiveness and collaborative approach were impressive. Our startup's website now stands out, thanks to their creative input and commitment to excellence.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+The project successfully automated the transformation of building facade features, generated unique architectural styles through neural style transfer, and provided a scalable web application for educational workshops.

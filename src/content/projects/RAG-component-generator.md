@@ -9,50 +9,40 @@ seo:
     alt: Project preview
 ---
 
-![Project preview](/project-2.jpg)
+![Project preview](/project-1.jpg)
 
 **Project Overview:**
-TimeWarp Travel Agency aims to redefine the travel experience by offering an innovative and immersive online platform that explores the concept of time travel. The website combines cutting-edge technology with captivating storytelling to provide users with a unique journey through time.
+The 2016 iGEM Toronto team developed a synthetic biological sensor for detecting gold using GolS, a member of the MerR family of transcriptional regulators. My primary role was leading the computational team, where I focused on developing a colorimetric analysis app and modeling the GolS protein structure to enhance its gold-binding specificity.
 
 ## Objectives
 
-1. Create a visually stunning and user-friendly website that captures the essence of time travel.
-2. Integrate interactive elements to engage users and make the experience memorable.
-3. Develop a responsive design to ensure a seamless user experience across various devices.
+1. Develop a mobile application capable of precise colorimetric analysis to measure gold concentrations in samples from our wet lab's paper-based biosensor.
+2. Model the protein structure of GolS, a gold-binding protein, and compare it with other metal-binding proteins to identify mutations that enhance gold affinity.
 
 ## Features
 
-1. **Dynamic Destination Timelines:**
+1. **Colorimetric Analysis App:**
 
-- Users can explore destinations through dynamic timelines, showcasing significant historical events, cultural developments, and architectural milestones.
-- Interactive sliders allow users to navigate through different eras, providing a visual representation of the historical evolution of each location.
+   - Developed an iOS app using Apache Cordova for real-time colorimetric image analysis.
+   - Enabled quantification of gold concentration via smartphone photos with advanced colorimetric algorithms.
 
-2. **Interactive Historical Events:**
+2. **Protein Structure Prediction:**
 
-- Users can click on specific points in the timeline to reveal detailed information about key historical events related to the chosen destination.
-- Rich multimedia content, including images, videos, and articles, provides a comprehensive understanding of each event.
+   - Modeled GolS structure and its mutants using Rosetta and PyRosetta for enhanced gold-binding specificity.
+   - Predicted gold-binding capabilities of GolS variants to guide experimental validation.
 
-3. **Personalized Time Travel Planner:**
+3. **Linear Regression Analysis:**
 
-- A personalized planner feature enables users to create their time travel itineraries by selecting specific eras and destinations.
-- The system suggests thematic experiences, such as attending historical events or meeting famous personalities.
-
-4. **Time-Port Virtual Reality Experience:**
-
-- For an extra layer of immersion, users can opt for the Time-Port VR experience, allowing them to virtually step into different time periods and explore the surroundings in 360 degrees.
-
-5. **Chronicle Explorer Blog:**
-
-- A blog section, "Chronicle Explorer," offers in-depth articles and stories about various historical periods and their impact on the destinations featured on the platform.
-- Users can engage with the content, comment, and share their own historical insights.
+   - Employed Scikit-learn to perform linear regression analysis for quantifying colorimetric changes.
+   - Implemented a machine learning algorithm to correlate color intensity with gold concentration.
 
 ## Tech Stack
 
-- **Frontend:** [Astro.js](https://astro.build/) for a dynamic and responsive user interface and [Tailwind CSS](https://tailwindcss.com/) for styling.
-- **Backend:** Node.js for handling server-side logic and API integration.
-- **Database:** MongoDB for efficient storage and retrieval of historical data.
-- **VR Integration:** A-Frame framework for creating immersive virtual reality experiences.
+- **Frontend:** Apache Cordova
+- **Backend:** Scikit-learn
+- **Database:** Cordova-sqlite-Storage
+- **Computational Tools:** Rosetta, PyRosetta
 
 ## Outcome
 
-The TimeWarp Travel Agency Website successfully brings the concept of time travel to life, providing users with a captivating and educational experience. The website not only serves as a travel planning tool but also as an interactive platform that encourages users to explore and appreciate the rich tapestry of human history.
+The iGEM Toronto 2016 project successfully created a gold-specific biosensor and an accompanying colorimetric analysis app, providing a portable, user-friendly tool for accurate gold detection. The integration of advanced computational models and machine learning techniques ensured high specificity and reliability in real-world applications. Our efforts were recognized at the iGEM Jamboree 2016, where we achieved a bronze medal.
