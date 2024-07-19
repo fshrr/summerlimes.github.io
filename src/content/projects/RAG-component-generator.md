@@ -1,48 +1,47 @@
 ---
 title: 'Llama3 RAG component generator'
-description: Explore the possibilities of time travel through an immersive website for a fictional travel agency, complete with dynamic destination timelines and interactive historical events.
+description: Implemented Retrieval-Augmented Generation (RAG) in Langchain to accelerate project-specific component generation, reducing design to static site generation time by 40%.
 publishDate: 'Jul 18 2024'
 isFeatured: true
-seo:
-  image:
-    src: '/project-2.jpg'
-    alt: Project preview
+# seo:
+#   image:
+#     src: '/project-2.jpg'
+#     alt: Project preview
 ---
 
-![Project preview](/project-1.jpg)
+<!-- ![Project preview](/project-1.jpg) -->
 
 **Project Overview:**
-The 2016 iGEM Toronto team developed a synthetic biological sensor for detecting gold using GolS, a member of the MerR family of transcriptional regulators. My primary role was leading the computational team, where I focused on developing a colorimetric analysis app and modeling the GolS protein structure to enhance its gold-binding specificity.
+Implemented Retrieval-Augmented Generation (RAG) in Langchain to accelerate project-specific component generation, significantly reducing the time required for design to static site generation.
 
 ## Objectives
 
-1. Develop a mobile application capable of precise colorimetric analysis to measure gold concentrations in samples from our wet lab's paper-based biosensor.
-2. Model the protein structure of GolS, a gold-binding protein, and compare it with other metal-binding proteins to identify mutations that enhance gold affinity.
+1. Integrate Retrieval-Augmented Generation (RAG) to enhance the generation of project-specific components.
+2. Optimize the design to static site generation process to achieve faster turnaround times.
+3. Streamline and automate the workflow for generating components, improving overall efficiency.
 
 ## Features
 
-1. **Colorimetric Analysis App:**
+1. **RAG Integration:**
 
-   - Developed an iOS app using Apache Cordova for real-time colorimetric image analysis.
-   - Enabled quantification of gold concentration via smartphone photos with advanced colorimetric algorithms.
+   - Implemented RAG in Langchain to facilitate the generation of components tailored to specific projects.
+   - Utilized advanced retrieval techniques to enhance the efficiency and accuracy of component creation.
 
-2. **Protein Structure Prediction:**
+2. **Accelerated Design Process:**
 
-   - Modeled GolS structure and its mutants using Rosetta and PyRosetta for enhanced gold-binding specificity.
-   - Predicted gold-binding capabilities of GolS variants to guide experimental validation.
+   - Reduced design to static site generation time by 40% through optimized component generation.
+   - Leveraged Langchain's capabilities to automate and streamline the generation process.
 
-3. **Linear Regression Analysis:**
+3. **Optimized Workflow:**
 
-   - Employed Scikit-learn to perform linear regression analysis for quantifying colorimetric changes.
-   - Implemented a machine learning algorithm to correlate color intensity with gold concentration.
+   - Automated the retrieval and generation of project-specific components, minimizing manual intervention.
+   - Enhanced the overall workflow, providing faster and more efficient static site generation.
 
 ## Tech Stack
 
-- **Frontend:** Apache Cordova
-- **Backend:** Scikit-learn
-- **Database:** Cordova-sqlite-Storage
-- **Computational Tools:** Rosetta, PyRosetta
+- **Framework:** Langchain
+- **Retrieval-Augmented Generation:** Custom RAG implementation
 
 ## Outcome
 
-The iGEM Toronto 2016 project successfully created a gold-specific biosensor and an accompanying colorimetric analysis app, providing a portable, user-friendly tool for accurate gold detection. The integration of advanced computational models and machine learning techniques ensured high specificity and reliability in real-world applications. Our efforts were recognized at the iGEM Jamboree 2016, where we achieved a bronze medal.
+The project successfully integrated RAG in Langchain, leading to a 40% faster design to static site generation process. The optimized workflow and automated component generation significantly improved efficiency and productivity.

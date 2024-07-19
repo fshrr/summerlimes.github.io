@@ -1,37 +1,48 @@
 ---
 title: 'LLM Performance Monitoring Dashboard'
-description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
+description: Developed a real-time dashboard using NextJS, Recharts, FastAPI with WebSocket, and InfluxDB to monitor and aggregate GPU, VRAM, CPU, RAM utilization, and power consumption for running local inference using open-source LLMs.
 publishDate: 'Jul 17 2024'
 isFeatured: true
-seo:
-  image:
-    src: '/project-1.jpg'
-    alt: Project preview
+# seo:
+#   image:
+#     src: '/project-1.jpg'
+#     alt: Project preview
 ---
 
-![Project preview](/project-1.jpg)
+<!-- ![Project preview](/project-1.jpg) -->
 
 **Project Overview:**
-TimeWarp Travel Agency aims to redefine the travel experience by offering an innovative and immersive online platform that explores the concept of time travel. The website combines cutting-edge technology with captivating storytelling to provide users with a unique journey through time.
+Developed a real-time data visualization dashboard to monitor and aggregate GPU, VRAM, CPU, RAM utilization, and power consumption for running local inference using open-source LLMs.
 
 ## Objectives
 
-1. Create a visually stunning and user-friendly website that captures the essence of time travel.
+1. Create a real-time dashboard to visualize and monitor system resource utilization during local inference.
+2. Aggregate data from multiple sources to provide comprehensive insights into hardware performance.
+3. Implement a scalable and efficient backend to support real-time data updates.
 
 ## Features
 
-1. **Dynamic Destination Timelines:**
+1. **Real-Time Data Visualization:**
 
-- Users can explore destinations through dynamic timelines, showcasing significant historical events, cultural developments, and architectural milestones.
-- Interactive sliders allow users to navigate through different eras, providing a visual representation of the historical evolution of each location.
+   - Utilized NextJS and Recharts to create dynamic and responsive visualizations.
+   - Monitored GPU, VRAM, CPU, RAM utilization, and power consumption in real-time.
+
+2. **Efficient Data Aggregation:**
+
+   - Employed FastAPI with WebSocket for seamless real-time data updates.
+   - Aggregated hardware performance metrics using InfluxDB for efficient data storage and retrieval.
+
+3. **Local Inference Monitoring:**
+
+   - Designed specifically to monitor local inference tasks using open-source LLMs.
+   - Provided detailed insights into resource utilization and power consumption.
 
 ## Tech Stack
 
-- **Frontend:** [Astro.js](https://astro.build/) for a dynamic and responsive user interface and [Tailwind CSS](https://tailwindcss.com/) for styling.
-- **Backend:** Node.js for handling server-side logic and API integration.
-- **Database:** MongoDB for efficient storage and retrieval of historical data.
-- **VR Integration:** A-Frame framework for creating immersive virtual reality experiences.
+- **Frontend:** NextJS, Recharts
+- **Backend:** FastAPI, WebSocket
+- **Database:** InfluxDB
 
 ## Outcome
 
-The TimeWarp Travel Agency Website successfully brings the concept of time travel to life, providing users with a captivating and educational experience. The website not only serves as a travel planning tool but also as an interactive platform that encourages users to explore and appreciate the rich tapestry of human history.
+The project resulted in a highly efficient and user-friendly dashboard for real-time monitoring of hardware performance during local inference, offering valuable insights into resource utilization and power consumption.

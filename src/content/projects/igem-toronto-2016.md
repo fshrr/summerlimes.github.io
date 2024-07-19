@@ -3,13 +3,13 @@ title: 'iGEM Toronto 2016 Computational Biology Project'
 description: Led the development of a mobile colorimetric analysis app and conducted protein structure research using Apache Cordova, Scikit-learn, Cordova-sqlite-Storage, Rosetta, and PyRosetta.
 publishDate: 'Jul 14 2024'
 isFeatured: true
-seo:
-  image:
-    src: '/project-1.jpg'
-    alt: Project preview
+# seo:
+#   image:
+#     src: '/project-1.jpg'
+#     alt: Project preview
 ---
 
-![Project preview](/project-1.jpg)
+<!-- ![Project preview](/project-1.jpg) -->
 
 **Project Overview:**
 The 2016 iGEM Toronto team developed a synthetic biological sensor for detecting gold using GolS, a member of the MerR family of transcriptional regulators. My primary role was leading the computational team, where I focused on developing a colorimetric analysis app and modeling the GolS protein structure to enhance its gold-binding specificity.

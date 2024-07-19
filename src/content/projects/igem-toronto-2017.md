@@ -3,13 +3,13 @@ title: 'iGEM Toronto 2017 Wiki Development'
 description: Directed the creation of a new brand identity and a comprehensive wiki for the iGEM Jamboree using JavaScript, D3.js, Jmol, and Jenkins.
 publishDate: 'Jul 15 2024'
 isFeatured: true
-seo:
-  image:
-    src: '/project-1.jpg'
-    alt: Project preview
+# seo:
+#   image:
+#     src: '/project-1.jpg'
+#     alt: Project preview
 ---
 
-![Project preview](/project-1.jpg)
+<!-- ![Project preview](/project-1.jpg) -->
 
 **Project Overview:**
 The 2017 iGEM Toronto team undertook the task of developing a comprehensive wiki and a new brand identity for the team. My primary role was leading the wiki team, overseeing the creation of a unique brand and facilitating communication across various sub-teams to ensure accurate and timely documentation.

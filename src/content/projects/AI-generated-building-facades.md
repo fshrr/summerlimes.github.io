@@ -1,6 +1,6 @@
 ---
 title: 'AI Generated Building Facades'
-description: Collaborated on automating 2D to 3D transformations, creating new architectural facades using neural style transfer, and developing a Django web app with AWS GPU-enabled servers.
+description: Worked with University of Toronto and LAMAS on building 2D to 3D transformations pipeline, creating new architectural facades using neural style transfer, and developing a Django web app with AWS GPU-enabled servers.
 publishDate: 'Jul 16 2024'
 isFeatured: true
 seo:
@@ -40,7 +40,7 @@ Collaborated with the University of Toronto Daniels Faculty of Architecture and 
 ## Tech Stack
 
 - **Frontend:** JavaScript
-- **Backend:** Django, AWS
+- **Backend:** Django, AWS EC2
 - **Machine Learning:** Scikit-learn, Scikit-image, PyTorch, OpenCV
 
 ## Outcome
